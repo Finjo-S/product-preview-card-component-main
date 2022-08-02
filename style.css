@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
+:root {
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+}
+
+body {
+    background-color: var(--Cream);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 650px;
+    position: absolute;
+    top: 20%;
+    border-radius: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.175);
+}
+
+.card-info {
+    height: -webkit-fill-available;
+    width: inherit;
+    padding: 20px;
+}
+
+.photo {
+    height: inherit;
+    background: url("./images/image-product-desktop.jpg") no-repeat center;
+    width: inherit;
+    background-origin: content-box;
+    background-size: 100% 100%;
+
+}
+
+.product-name {
+    font-family: 'Fraunces', serif !important;
+    font-size: 36px;
+    color: black;
+    opacity: 0.8;
+    margin-top: 24px;
+}
+
+.button-cart {
+
+    background-color: darkcyan;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+
+
+.attribution {
+    position: absolute;
+    bottom:0;
+    padding-bottom: 12px;;
+}
+
+.cart-icon {
+    padding: 6px 6px 0px 0px;
+}
+
+.price {
+    font-size: 32px;
+    font-family: "fraunces", sans-serif;
+    color: darkcyan;
+}
+
+.actual-price {
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 18px;
+    opacity: 0.7;
+}
+
+.desc {
+    font-size: 14px;
+    color: slategray;
+    opacity: 0.8;
+    margin-top: 24px; 
+}
+
+.label {
+    margin-top: 14px;
+    font-size: 14px;
+    opacity: 0.7;
+    letter-spacing: 4px;
+}
+
+.pricing {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+}
